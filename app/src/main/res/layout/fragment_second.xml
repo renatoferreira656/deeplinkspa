@@ -17,12 +17,5 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="hi"/>
-
-        <FrameLayout
-            android:id="@+id/activity_deep_link_content"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </FrameLayout>
     </LinearLayout>
 </layout>

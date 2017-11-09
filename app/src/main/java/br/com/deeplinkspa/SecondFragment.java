@@ -30,7 +30,7 @@ public class SecondFragment extends Fragment {
     }
 
     private void onClick(View view) {
-        LinkManager.goTo(getActivity(), "/first");
+        LinkManager.me().open("/first");
     }
 
 }

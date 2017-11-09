@@ -24,7 +24,7 @@ public class FirstFragment extends Fragment {
     }
 
     private void onClick(View view) {
-        LinkManager.goTo(getActivity(), "/second");
+        LinkManager.me().open("/second");
     }
 
 }
